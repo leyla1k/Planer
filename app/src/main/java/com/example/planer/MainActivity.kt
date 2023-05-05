@@ -1,4 +1,4 @@
-package com.example.planner
+package com.example.planer
 
 import android.content.Intent
 import android.os.Bundle
