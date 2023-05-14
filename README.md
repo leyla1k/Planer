@@ -31,4 +31,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
+
 Команда для запуска: git clone https://github.com/leyla1k/Planer.git, затем cd Planer
