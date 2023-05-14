@@ -12,3 +12,23 @@
 
 Приложение планер упрощает жизнь пользователям, позволяя им структурировать свою жизнь, избавляться от стресса и излишнего напряжения, снижать заболеваемость и снижать временные издержки на выполнение задач. Кроме того, оно помогает пользователю стать более организованным и продуктивным, что является ключевым элементом успеха.
 
+Выбрали формат приложения из-за нескольких причин.
+Мобильность: мобильные приложения позволяют использовать приложения в любое время и в любом месте. Они не ограничены местом и временем и могут быть доступны в любой точке мира.
+Быстрый доступ: приложения могут быть запущены в одно касание, что позволяет сэкономить время и увеличить продуктивность.
+Уведомления: мобильные приложения могут отправлять уведомления на мобильное устройство о новых сообщениях, событиях и других обновлениях. Это удобно для тех, кто хочет быть в курсе всех изменений.
+Пользовательский интерфейс: мобильные приложения имеют более простой и удобный пользовательский интерфейс, который позволяет лучше и быстрее пользоватся. Они могут адаптироваться к размеру экрана и навигации пользователя.
+
+ЗАВИСИМОСТИ.
+dependencies {
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
+Команда для запуска: git clone https://github.com/leyla1k/Planer.git, затем cd Planer
