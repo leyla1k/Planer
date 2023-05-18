@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Planer</string>
 
+    <string-array name="cat_names">
+        <item>Системная задача 1</item>
+        <item>Системная задача 2</item>
+        <item>Системная задача 3</item>
+        <item>Все работает</item>
+    </string-array>
 
 </resources>

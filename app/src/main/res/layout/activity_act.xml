@@ -7,4 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".ActActivity">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/recyclerViewTask"
+      android:layout_width="334dp"
+      android:layout_height="653dp"
+      android:scrollbars="horizontal"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:listitem="@layout/recyclerview_item_task" />
+</androidx.constraintlayout.widget.ConstraintLayout>

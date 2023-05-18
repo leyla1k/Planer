@@ -4,6 +4,7 @@ buildscript {
 
     dependencies {
         classpath "org.jetbrains.dokka:dokka-gradle-plugin:1.8.10"
+
     }
 
 }
@@ -24,16 +25,17 @@ task clean(type: Delete) {
 
 
 
-/*dokkaJavadoc {
+dokkaJavadoc {
     moduleName.set("My module's documentation")
-}*/
+}
 
-/*task javadocJar(type: Jar, dependsOn: dokkaJavadoc) {
+task javadocJar(type: Jar, dependsOn: dokkaJavadoc) {
     group "publishing"
     description "Generates javadocJar based on Dokka"
 
     archiveClassifier.set("javadoc")
     from dokkaJavadoc.outputDirectory
-}*/
+}
+
 
 

@@ -11,9 +11,7 @@ import android.widget.*
 import android.widget.CalendarView.OnDateChangeListener
 import androidx.appcompat.app.AppCompatActivity
 
-
 //не забудь что в этот раз работа с базой даннолй в отедльном потоке
-
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,13 +27,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         lateinit var intent: Intent
         mCalendarView = findViewById(R.id.calendar_view)
         spinner = findViewById(R.id.spinner2)
-
-
-
 
         mCalendarView.setOnDateChangeListener(OnDateChangeListener { _, year, month, dayOfMonth ->
             // При выборе любой даты отображаем Toast сообщение с данными о выбранной дате (Год, Месяц, День):
